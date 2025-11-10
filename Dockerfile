@@ -13,7 +13,7 @@ LABEL maintainer="https://github.com/ucsd-ets/math11-notebook"
 # 2) change to root to install packages
 USER root
 
-RUN R -e "install.packages('car')"
+RUN R -e "install.packages('car', repos='http://cran.rstudio.com/')"
 #RUN apt-get -y install htop
 
 # 3) install packages using notebook user
