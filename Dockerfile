@@ -4,7 +4,7 @@
 # base notebook, contains Jupyter and relevant tools
 # See https://github.com/ucsd-ets/datahub-docker-stack/wiki/Stable-Tag 
 # for a list of the most current containers we maintain
-ARG BASE_CONTAINER=ghcr.io/ucsd-ets/rstudio-notebook:2025.3-2025.3
+ARG BASE_CONTAINER=ghcr.io/ucsd-ets/rstudio-notebook:2025.1-stable
 
 FROM $BASE_CONTAINER
 
